@@ -8,7 +8,7 @@ const usersModel = {
               VALUES (?, ?, ?, ?, ?, ?, ? ,?)`,
               
     getByUsername: `
-    SELECT id FROM Users WHERE username = ?`,
+    SELECT * FROM Users WHERE username = ?`,
 
     getByEmail: `
     SELECT id FROM Users WHERE email = ?`,
